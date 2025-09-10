@@ -26,7 +26,7 @@ Both methods are compared on synthetic data, and their results are visualized.
 - Libraries: `numpy`, `matplotlib`
 
 Install dependencies (if needed):
-```bash
+
 pip install numpy matplotlib
 
 
