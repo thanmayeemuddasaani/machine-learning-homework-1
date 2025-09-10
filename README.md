@@ -34,17 +34,16 @@ pip install numpy matplotlib
 
 ### 1) Raw Data
 Data follows:  
-\[
-y = 3 + 4x + \epsilon
-\]  
-with Gaussian noise.  
+<img width="630" height="470" alt="image" src="https://github.com/user-attachments/assets/8855f407-4f44-4786-b898-ee2829853a23" />
+
 
 - The scatter plot shows a **clear linear trend** with random variation.
 
 ---
 
 ### 2) Closed-form Solution
-Normal Equation:  
+<img width="630" height="470" alt="image" src="https://github.com/user-attachments/assets/f8c67e50-909c-4156-a59a-70ec06fd2df6" />
+
 
 
 **Parameters:**
@@ -56,9 +55,8 @@ Normal Equation:
 ---
 
 ### 3) Gradient Descent Solution
-- Initialized with \(\theta = [0,0]\)  
-- Learning rate \(\eta = 0.05\)  
-- Iterations = 1000  
+<img width="630" height="470" alt="image" src="https://github.com/user-attachments/assets/955012e4-8b2b-4990-b26f-aa397422f0f6" />
+
 
 **Parameters:**
 - Intercept ≈ **2.6908**  
@@ -69,12 +67,16 @@ Normal Equation:
 ---
 
 ### 4) Comparison
+<img width="630" height="470" alt="image" src="https://github.com/user-attachments/assets/44292fb5-cdb6-4bfa-8e61-428e883d38a3" />
+
 - Both Closed-form and GD produce **nearly identical lines**.  
 - Confirms that MSE for linear regression is a **convex problem** with a unique global minimum.  
 
 ---
 
 ### 5) Loss Curve
+<img width="630" height="470" alt="image" src="https://github.com/user-attachments/assets/cf0bf57a-ccfe-4747-8871-f1fe0fd28f5b" />
+
 - Loss starts **high** at \(\theta = [0,0]\).  
 - It **rapidly decreases** during early iterations.  
 - It **flattens out** after ~500 iterations, showing **convergence**.  
