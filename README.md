@@ -90,9 +90,7 @@ Data follows:
 
 **Short Summary:**  
 We fit a linear model to synthetic data  
-\[
-y = 3 + 4x + \epsilon
-\]  
+ 
 The Normal Equation gave parameters \((2.6908,\,4.1318)\), and Gradient Descent converged to the same values after 1000 iterations.  
 The loss curve confirmed convergence, and both methods produced identical fitted lines.
 
