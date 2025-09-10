@@ -1,7 +1,7 @@
 # CS5710 Machine Learning — Homework 1 (Fall 2025)
 
 **Student Name:** *M. Thanmayee*  
-**Student ID:** *700776997*
+**Student ID:** *700776997* 
 **Course:** CS5710 Machine Learning  
 **University:** University of Central Missouri  
 
