@@ -7,7 +7,7 @@
 
 ---
 
-## 📌 Assignment Overview
+##  Assignment Overview
 This repository contains my solutions to **Homework 1** of CS5710 Machine Learning.  
 The focus is on **function approximation, gradient descent, under/overfitting, and implementing linear regression**.  
 
@@ -19,18 +19,10 @@ Both methods are compared on synthetic data, and their results are visualized.
 
 ---
 
-## 🚀 How to Run
-
-### Requirements
-- Python 3.8+
-- Libraries: `numpy`, `matplotlib`
-
-Install dependencies (if needed):
-
-pip install numpy matplotlib
 
 
-## 📊 Results & Analysis
+
+##  Results & Analysis
 
 ### 1) Raw Data
 Data follows:  
@@ -83,7 +75,7 @@ Data follows:
 
 ---
 
-## 📝 Key Insights
+##  Key Insights
 - **Closed-form** is exact and efficient for small datasets.  
 - **Gradient Descent** scales better to large datasets and complex models.  
 - On this dataset, both converge to the **same optimum parameters**.  
