@@ -45,9 +45,7 @@ with Gaussian noise.
 
 ### 2) Closed-form Solution
 Normal Equation:  
-\[
-\theta = (X^\top X)^{-1} X^\top y
-\]
+
 
 **Parameters:**
 - Intercept ≈ **2.6908**
